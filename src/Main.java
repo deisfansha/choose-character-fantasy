@@ -25,7 +25,7 @@ public class Main {
         };
 
         System.out.println("Selamat datang di pemilihan Karakter Fantasy!");
-        System.out.println("Berikut adalah pilihan karakter yang tersedia : ");
+        System.out.println("Berikut adalah pilihan karakter yang tersedia : \n");
 
         // Menampilkan pilihan karakter yang tersedia
         for(int indeks = 1; indeks <= karakterData.length; indeks++){
@@ -63,8 +63,9 @@ public class Main {
         String job = karakterData[choose - 1][1];
 
         // Menampilkan nama dan deskripsi karakter yang dipilih
-        System.out.println("Anda memilih karakter " + karakter);
+        System.out.println("Anda memilih karakter " + karakter+".");
         System.out.println(job);
+        System.out.println("\nSelamat bermain fantasy dengan karakter "+karakter+" Anda.");
 
         input.close();
 
